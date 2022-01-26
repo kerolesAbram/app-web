@@ -1,0 +1,48 @@
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:991px){
+  section{
+      padding-left:3%;
+      padding-right:3%;
+  }
+}
+
+@media (max-width:768px){
+  header .fa-bars{
+      display: block!important;
+  }
+  nav{
+      display:none;
+  }
+  .home{
+      flex-flow: column-reverse;
+      .image img{
+          width: 100% !important;
+      }
+      .content{
+          h3{
+              font-size: 3.5rem!important;
+          }
+          p{
+              font-size: 1.5rem!important;
+          }
+      }
+  }
+  .about{
+      background-position: right;
+      .column .content a{
+          width: 100%!important;
+          text-align: center;
+      }
+      .column .content a:last-child{
+          margin:1rem 0;
+      }
+  }
+  .newsletter p{
+      width: auto!important;
+  }
+}
